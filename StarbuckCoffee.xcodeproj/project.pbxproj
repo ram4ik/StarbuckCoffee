@@ -13,6 +13,11 @@
 		95404B55246BE3900071C24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404B54246BE3900071C24D /* Assets.xcassets */; };
 		95404B58246BE3900071C24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404B57246BE3900071C24D /* Preview Assets.xcassets */; };
 		95404B5B246BE3900071C24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95404B59246BE3900071C24D /* LaunchScreen.storyboard */; };
+		95404B76246BEA880071C24D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B75246BEA880071C24D /* HeaderView.swift */; };
+		95404B78246BECD70071C24D /* AllProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B77246BECD70071C24D /* AllProductView.swift */; };
+		95404B7A246BECE50071C24D /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B79246BECE50071C24D /* CoffeeView.swift */; };
+		95404B7C246BED690071C24D /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B7B246BED690071C24D /* ProductCard.swift */; };
+		95404B7E246BF0460071C24D /* CoffeeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B7D246BF0460071C24D /* CoffeeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,29 @@
 		95404B57246BE3900071C24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95404B5A246BE3900071C24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95404B5C246BE3900071C24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95404B63246BE3F00071C24D /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		95404B64246BE3F00071C24D /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		95404B65246BE3F00071C24D /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		95404B66246BE3F00071C24D /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		95404B67246BE3F00071C24D /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		95404B68246BE3F00071C24D /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		95404B69246BE3F00071C24D /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		95404B6A246BE3F00071C24D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		95404B6B246BE3F00071C24D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		95404B6C246BE3F00071C24D /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		95404B6D246BE3F00071C24D /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		95404B6E246BE3F00071C24D /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		95404B6F246BE3F10071C24D /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		95404B70246BE3F10071C24D /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		95404B71246BE3F10071C24D /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		95404B72246BE3F10071C24D /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		95404B73246BE3F10071C24D /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		95404B74246BE3F10071C24D /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		95404B75246BEA880071C24D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		95404B77246BECD70071C24D /* AllProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductView.swift; sourceTree = "<group>"; };
+		95404B79246BECE50071C24D /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		95404B7B246BED690071C24D /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		95404B7D246BF0460071C24D /* CoffeeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 		95404B4D246BE38F0071C24D /* StarbuckCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				95404B62246BE3E30071C24D /* fonts */,
 				95404B4E246BE38F0071C24D /* AppDelegate.swift */,
 				95404B50246BE38F0071C24D /* SceneDelegate.swift */,
 				95404B52246BE38F0071C24D /* ContentView.swift */,
@@ -63,6 +92,11 @@
 				95404B59246BE3900071C24D /* LaunchScreen.storyboard */,
 				95404B5C246BE3900071C24D /* Info.plist */,
 				95404B56246BE3900071C24D /* Preview Content */,
+				95404B75246BEA880071C24D /* HeaderView.swift */,
+				95404B77246BECD70071C24D /* AllProductView.swift */,
+				95404B7B246BED690071C24D /* ProductCard.swift */,
+				95404B79246BECE50071C24D /* CoffeeView.swift */,
+				95404B7D246BF0460071C24D /* CoffeeCard.swift */,
 			);
 			path = StarbuckCoffee;
 			sourceTree = "<group>";
@@ -73,6 +107,31 @@
 				95404B57246BE3900071C24D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95404B62246BE3E30071C24D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95404B74246BE3F10071C24D /* Raleway-Black.ttf */,
+				95404B72246BE3F10071C24D /* Raleway-BlackItalic.ttf */,
+				95404B70246BE3F10071C24D /* Raleway-Bold.ttf */,
+				95404B67246BE3F00071C24D /* Raleway-BoldItalic.ttf */,
+				95404B6D246BE3F00071C24D /* Raleway-ExtraBold.ttf */,
+				95404B64246BE3F00071C24D /* Raleway-ExtraBoldItalic.ttf */,
+				95404B6C246BE3F00071C24D /* Raleway-ExtraLight.ttf */,
+				95404B6A246BE3F00071C24D /* Raleway-ExtraLightItalic.ttf */,
+				95404B73246BE3F10071C24D /* Raleway-Italic.ttf */,
+				95404B69246BE3F00071C24D /* Raleway-Light.ttf */,
+				95404B68246BE3F00071C24D /* Raleway-LightItalic.ttf */,
+				95404B66246BE3F00071C24D /* Raleway-Medium.ttf */,
+				95404B6F246BE3F10071C24D /* Raleway-MediumItalic.ttf */,
+				95404B6B246BE3F00071C24D /* Raleway-Regular.ttf */,
+				95404B63246BE3F00071C24D /* Raleway-SemiBold.ttf */,
+				95404B71246BE3F10071C24D /* Raleway-SemiBoldItalic.ttf */,
+				95404B6E246BE3F00071C24D /* Raleway-Thin.ttf */,
+				95404B65246BE3F00071C24D /* Raleway-ThinItalic.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +207,12 @@
 			files = (
 				95404B4F246BE38F0071C24D /* AppDelegate.swift in Sources */,
 				95404B51246BE38F0071C24D /* SceneDelegate.swift in Sources */,
+				95404B7A246BECE50071C24D /* CoffeeView.swift in Sources */,
 				95404B53246BE38F0071C24D /* ContentView.swift in Sources */,
+				95404B76246BEA880071C24D /* HeaderView.swift in Sources */,
+				95404B7E246BF0460071C24D /* CoffeeCard.swift in Sources */,
+				95404B78246BECD70071C24D /* AllProductView.swift in Sources */,
+				95404B7C246BED690071C24D /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
